@@ -1,6 +1,7 @@
 package lms_127
 
 fun task1() {
-
-    TODO("Erase this line and write your solution")
+    println("Country : Panama")
+    println("Capital : panama City")
+    println("Corency : usd")
 }
