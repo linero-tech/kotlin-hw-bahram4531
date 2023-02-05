@@ -2,5 +2,9 @@ package lms_126
 
 fun task4(): String {
 
-    return TODO("Replace this 'TODO' with your solution")
-}
+    return "
+    val x = 1
+    val y = 2
+    val moduloResult = 1 % 2
+    println(moduloResult)
+}  " 
