@@ -1,16 +1,10 @@
 package lms_126
 
-fun task4(): String {
-
+fun task4() {
     return
-    fun main() {
-        val x = 7
-        val y = 11
-
-        if (x > y) {
-            println(x)
-        } else {
-            println(y)
-        }
-    }
-}
+    val x = 7
+    val y = 11
+    if (y > y)
+        println(x)
+    println(y)
+                   }
