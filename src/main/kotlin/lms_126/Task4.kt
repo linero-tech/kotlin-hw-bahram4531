@@ -1,10 +1,6 @@
 package lms_126
 
-fun task4() {
-    return
-    val x = 7
-    val y = 11
-    if (y > y)
-        println(x)
-    println(y)
-                   }
+fun task4(): String {
+
+    return TODO("Replace this 'TODO' with your solution")
+}
