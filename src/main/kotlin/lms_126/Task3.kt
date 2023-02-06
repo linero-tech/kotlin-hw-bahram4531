@@ -8,4 +8,4 @@ fun task3(): String {
      Calculator area = 0.5 * base * height
      OUTPUT area of triangle 
      """
-} 
+}
