@@ -8,6 +8,3 @@ fun task1() {
     val sentence = "$name $capital $currency"
     println(sentence)
     }
-fun main() {
-    task1()
-}
