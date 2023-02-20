@@ -9,6 +9,6 @@ fun task8(): String {
     ELSE if X is divisible by 5:
     print "Bar"
     ELSE:
-    print "Qix    
+    print "Qix     
     """
 }
