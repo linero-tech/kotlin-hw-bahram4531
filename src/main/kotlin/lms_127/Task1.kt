@@ -12,7 +12,3 @@ fun task1() {
     println(completeName)
     println(sentence)
 }
-
-fun main() {
-    task1()
-}
