@@ -6,8 +6,8 @@ fun task1() {
     val capital = "Stockholm"
     val currency = "Swedish krona"
 
-    val completeName = name +" "+capital + " " + currency
-    val sentence = "$name $capital $currency"
+    val completeName = name +" "+ capital + " " + currency // string concatenation
+    val sentence = "$name $capital $currency" // string Templates
     println(completeName)
     println(completeName)
     println(sentence)
@@ -15,5 +15,4 @@ fun task1() {
 
 fun main() {
     task1()
-
 }
