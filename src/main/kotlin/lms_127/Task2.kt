@@ -1,9 +1,9 @@
 package lms_127
 
-fun task2 () {
+fun task1() {
 
     val name = "Bahram"
     val country = "Sweden"
     val month = "July"
-    println("Hello $name, you are from $country and you were born in $month.")
+    val sentence = ("Hello $name, you are from $country and you were born in $month.")
 }
