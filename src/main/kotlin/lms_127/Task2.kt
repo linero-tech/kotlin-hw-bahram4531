@@ -1,6 +1,6 @@
 package lms_127
 
-fun main () {
+fun task2 () {
 
     val name = "Bahram"
     val country = "Sweden"
