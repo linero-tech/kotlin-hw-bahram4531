@@ -2,17 +2,18 @@ package lms_127
 
 fun task1() {
 
-    val conutry = "Sweden"
+    val country = "Sweden"
     val capital = "Stockholm"
     val currency = "Swedish krona"
 
-    val completeName = conutry +" "+ capital + " " + currency // string concatenation
-    val sentence = "$conutry $capital $currency" // string templates
+    val completeName = country + " " + capital + " " + currency // string concatenation
+    val sentence = "$country $capital $currency" // string templates
     println(completeName)
     println(completeName)
     println(sentence)
 
 }
 
-fun main() { task1()
+fun main()
+{ task1()
 }
