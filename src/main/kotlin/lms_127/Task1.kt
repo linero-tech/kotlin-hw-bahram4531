@@ -12,8 +12,11 @@ fun task1() {
     println(completeName)
     println(sentence)
 
+    val result
+    return result
 }
 
-fun main()
-{ task1()
+}
+    fun main() result
+    task1()
 }
