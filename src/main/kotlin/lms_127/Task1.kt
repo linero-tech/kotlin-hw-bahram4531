@@ -3,8 +3,8 @@ package lms_127
 fun task1() {
     val country = "contry"
     val capital = "capital"
-    val currency = "corrency"
-    println("$country : swedem")
+    val currency = "currency"
+    println("$country : Swedem")
     println("$capital : Stockholm")
     println("$currency : Swedish krona")
 }
