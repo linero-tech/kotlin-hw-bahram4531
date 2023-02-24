@@ -1,24 +1,14 @@
 package lms_127
 
-fun main () {
+fun task2() {
 
     val name = "Bahram"
     val country = "Sweden"
     val month = "July"
     println("Hello $name, you are from $country and you were born in $month.")
-    val sentence = "$name $country $month" // string templates
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+fun main() {
+    task2()
 
 }
