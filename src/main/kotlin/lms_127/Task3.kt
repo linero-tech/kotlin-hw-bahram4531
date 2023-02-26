@@ -1,6 +1,11 @@
 package lms_127
 
  fun task3(radius: Double): Double {
+     val result = 2 * Math.PI * radius
 
-     return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+     return result
  }
+fun main() {
+  task3(2.0)
+}
