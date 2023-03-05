@@ -1,11 +1,13 @@
 package lms_127
 
  fun task3(radius: Double): Double {
-     val result = 2 * Math.PI * radius
+     val radius = 2.0
+     val result = 2.0 * radius * 3.1416
 
 
      return result
  }
 fun main() {
-  task3(2.0)
+    val result = task3(radius = 2.0)
+    println(result)
 }
