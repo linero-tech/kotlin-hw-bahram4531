@@ -2,5 +2,16 @@ package lms_131
 
 fun task2(mapa: Map<Int, Int>): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    var result = 0
+    for ((key, value) in mapa) {
+        result += key
+    }
+
+    return result
+
+
+}
+fun main() {
+    val mapa = mapOf(1 to 10, 2 to 20, 3 to 30)
+    println(task2(mapa))
 }
