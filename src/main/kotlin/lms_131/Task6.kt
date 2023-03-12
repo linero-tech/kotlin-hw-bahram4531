@@ -2,5 +2,18 @@ package lms_131
 
 fun task6(mapa: Map<Int, String>, parameter: String): Map<Int, String> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+    val result = mutableMapOf<Int, String>()
+    for ((key, value) in mapa) {
+        if (value == parameter) {
+            result[key] = value
+        }
+    }
+return result
+
+}
+fun main() {
+    val mapa = mapOf(20 to "Ana", 40 to "John", 22 to "Ana")
+    val parameter = "Ana"
+    println(task6(mapa, parameter))
 }
