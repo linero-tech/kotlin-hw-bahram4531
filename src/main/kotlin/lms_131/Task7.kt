@@ -2,5 +2,14 @@ package lms_131
 
 fun task7(words: List<String>): Map<Int, String> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val result = mutableMapOf<Int, String>()
+    for (i in words.indices) {
+        result[i] = words[i]
+    }
+    return result
+}
+fun main()
+{
+    val words = listOf("I", "love", "Kotlin")
+println(task7(words))
 }
