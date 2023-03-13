@@ -3,21 +3,20 @@ package lms_129
 fun task2(number: Int): Boolean {
 
 
-    var result = true
-
-    if (number <2)
-    {
-        result = false
-    }
-    for(i in 2 until  number) {
-        if (number % i == 0) {
-            result = false
+    return if (number < 2) {
+        false
+    } else {
+        var result = true
+        for (i in 2..number / 2) {
+            if (number % i == 0) {
+                result = false
+                break
+            }
         }
+        result
     }
-    return result
+
 }
-fun main()
-{
-    val result = task2(2)
-    println(result)
+fun main() {
+    println(task2(5))
 }
