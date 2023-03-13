@@ -2,5 +2,16 @@ package lms_129
 
 fun task6(number: Int): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    var num = number
+    var result = 0
+    while (num != 0) {
+        val remainder = num % 10
+        result = result * 10 + remainder
+        num /= 10
+    }
+    return result
+}
+
+fun main() {
+    println(task6(678))
 }
