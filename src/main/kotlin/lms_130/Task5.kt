@@ -2,5 +2,15 @@ package lms_130
 
 fun task5(items: List<Int>): List<Int> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+    val items = listOf(1, 5, 11)
+    val result = items.mapIndexed { index, element -> index * element }
+
+    return result
 }
+ fun main() {
+     val items = listOf(1, 5, 11)
+
+     println(task5(listOf()))
+
+ }
