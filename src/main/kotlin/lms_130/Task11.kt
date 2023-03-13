@@ -2,13 +2,22 @@ package lms_130
 
 fun task11_1(guests: List<String>): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val guests = arrayOf("Lia-K", "Mar-A", "Luz-K", "Ulf-V")
+    val result = guests.size
+    println(result) // Output: 4
+
+    return result
 }
 
 fun task11_2(guests: List<String>, condition: String): List<String> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    return result
 }
+    val guests = arrayOf("Lia-K", "Mar-A", "Luz-K", "Ulf-V")
+    val condition = "-K"
+    val result = guests.filter { it.endsWith(condition) }
+
+
 
 fun main() {
 
