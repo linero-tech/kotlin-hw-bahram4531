@@ -6,10 +6,7 @@ fun task1(items: List<Int>): Int {
 
 
     val result = if (items.isNotEmpty()) {
-
-        items[Random.nextInt(items.size)]  }
-
-    else {
+        items[Random.nextInt(items.size)]   } else {
         0
     }
     return result
@@ -17,5 +14,5 @@ fun task1(items: List<Int>): Int {
 fun main() {
 
     val items = listOf(1, 2, 3, 4, 5)
-println(task1(items))
+    println(task1(listOf(1, 2, 3, 4, 4)))
 }
