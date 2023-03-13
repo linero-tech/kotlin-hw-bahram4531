@@ -1,6 +1,6 @@
 package lms_129
 
-fun task4(s: String): Int {
+fun task4(): Int {
 
     var result = 0
 
@@ -11,8 +11,7 @@ fun task4(s: String): Int {
     }
     return result
 }
-
-fun main() {
-    println(task4("result"))
-
+fun main () {
+    val result = task4()
+    println(result)
 }
