@@ -2,5 +2,21 @@ package lms_130
 
 fun task2(items: List<Int>): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+
+    val items = listOf(1, 2, 3, 4)
+
+    val result = if (items.isNotEmpty()) {
+        items.filterIndexed { index, _ -> index % 2 == 0 }
+            .sum()
+    } else {
+        0
+    }
+
+    return result
+}
+fun main(){
+    val items = listOf(1, 2, 3, 4)
+    println(task2(items))
+
 }
