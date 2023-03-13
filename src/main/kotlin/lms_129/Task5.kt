@@ -6,7 +6,6 @@ fun task5(sentence: String): Int {
     for (i in sentence) {
         result += 1
     }
-
     return result
 }
 fun main () {
