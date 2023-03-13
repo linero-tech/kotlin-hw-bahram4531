@@ -2,5 +2,18 @@ package lms_129
 
 fun task5(sentence: String): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    var sentence = "I love GBG" // example value
+    var result = 0
+
+    for (i in sentence.indices) {
+        result++
+    }
+
+
+    return result
+}
+
+fun main(){
+    println(task5(sentence = "I love GBG" ))
+
 }
