@@ -1,18 +1,21 @@
 package lms_130
 
-fun task3(items: List<Int>): Int {
+fun task3(items: List<Int>): List<Int>
+{
 
-    val items = listOf(1, 2, 3, 4)
+    val uniqueNumber = mutableListOf<Int>()
 
-    val result = if (items.isNotEmpty()) {
-        items.filterIndexed { index, _ -> index % 2 == 0 }
-            .sum()
-    } else {
-        0
+    val repeatedNumber = mutableSetOf<Int>()
+
+    items.forEach { number ->
+        if (number in uniqueNumber) {
+            repeatedNumber.add(number)
+        } else {
+            uniqueNumber.add(number)
+        }
+    }
+    return repeatedNumber.toList()
 }
-    return result
-    }
-fun main(){
-    val items = listOf(1, 2, 3, 4)
-    println(task3(items))
-    }
+fun main() {
+    println(task3(listOf(1, 1, 1, 2, 2, 3)))
+}
