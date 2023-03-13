@@ -1,18 +1,19 @@
 package lms_130
 
-import kotlin.random.Random
-
 fun task1(items: List<Int>): Int {
 
-
-    val result = if (items.isNotEmpty()) {
-        items[Random.nextInt(items.size)]   } else {
-        0
+    return if (items.isEmpty())
+    {
+     0
+    } else
+            {
+items.random()
     }
-    return result
-}
-fun main() {
 
-    val items = listOf(1, 2, 3, 4, 5)
-    println(task1(listOf(1, 2, 3, 4, 4)))
+}
+
+fun main(){
+    val result = task1(listOf(1, 2, 3, 4, 5))
+        println(result)
+
 }
