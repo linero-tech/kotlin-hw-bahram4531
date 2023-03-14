@@ -22,6 +22,5 @@ fun task14(sentence: String): Char {
 
 fun main() {
     val sentence = "I am it"
-
-    (task14(sentence))
+    println(task14(sentence))
 }
