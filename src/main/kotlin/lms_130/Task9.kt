@@ -1,9 +1,7 @@
 package lms_130
 
 fun task9(items: List<Int>): List<Int> {
-
     val result = mutableListOf<Int>()
-
     items.forEachIndexed { index, number ->
         if (index == 0) {
             result.add(number * number)
